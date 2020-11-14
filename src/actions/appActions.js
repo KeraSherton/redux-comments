@@ -1,6 +1,6 @@
-const ADD = "ADD";
-const DELETE = "DELETE";
-const EDIT = "EDIT";
+export const ADD = "ADD";
+export const DELETE = "DELETE";
+export const EDIT = "EDIT";
 
 const addRate = ({ author, rate, comment }) => ({
   type: ADD,
